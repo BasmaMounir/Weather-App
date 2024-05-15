@@ -33,7 +33,6 @@ class StartedView extends StatelessWidget {
                     'Weather ',
                     style: TextStyle(
                         fontSize: 64,
-                        color: Colors.white,
                         fontWeight: FontWeight.bold),
                   ),
                   const Text('ForeCasts',

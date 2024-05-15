@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
       splitScreenMode: true,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+        theme: ThemeData.dark(),
         initialRoute: Constants.startedScreenRouteName,
         routes: {
           Constants.startedScreenRouteName: (context) => const StartedView(),
