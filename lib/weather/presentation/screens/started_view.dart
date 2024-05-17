@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
@@ -46,7 +45,7 @@ class StartedView extends StatelessWidget {
                   ElevatedButton(
                       onPressed: () {
                         Navigator.pushReplacementNamed(
-                            context, Constants.homeScreenRouteName);
+                            context, Constants.countryChosenRouteName);
                       },
                       style: ElevatedButton.styleFrom(
                           foregroundColor: Colors.black,

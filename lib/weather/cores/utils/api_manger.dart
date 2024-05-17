@@ -4,13 +4,14 @@ import 'package:weather/weather/cores/utils/constants.dart';
 class ApiManger {
   static late Dio dio;
 
-  static void get() {
+  static Dio init() {
     dio = Dio(BaseOptions(baseUrl: Constants.baseUrl));
+    return dio;
   }
 
   Future<Response> getRequest(
       {required String endPoint, Map<String, dynamic>? queryParameters}) async {
-    var response = await dio.get(endPoint, queryParameters: queryParameters);
+    var response = await init().get(endPoint, queryParameters: queryParameters);
     return response;
   }
 
