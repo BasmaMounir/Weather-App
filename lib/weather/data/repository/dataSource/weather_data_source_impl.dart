@@ -2,7 +2,6 @@ import 'package:either_dart/either.dart';
 import 'package:weather/weather/cores/utils/api_manger.dart';
 import 'package:weather/weather/cores/utils/constants.dart';
 import 'package:weather/weather/data/model/days_forecast_weather_DM.dart';
-import 'package:weather/weather/data/model/weather_respons_DM.dart';
 import 'package:weather/weather/domain/entities/days_forecast_weather_entity.dart';
 import 'package:weather/weather/domain/repository/dataSource/weather_data_source.dart';
 
